@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: private-message-fa_IR\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-01 21:14+0330\n"
+"PO-Revision-Date: 2011-08-01 21:14+0330\n"
+"Last-Translator: Peyman3d <peyman_eskandari@yahoo.com>\n"
+"Language-Team: Postechin\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\roma\\wp-content\\plugins\\private-message\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\roma\\wp-content\\plugins\\private-message\n"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:9
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:7
+msgid "Show Message"
+msgstr "نمایش پیام"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:15
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:13
+msgid "From: "
+msgstr "از: "
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:17
+msgid "Mark as Unread"
+msgstr "برچسب به عنوان ناخوانده"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:18
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:15
+msgid "Forward This Mail"
+msgstr "باز ارسال این پیام"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:19
+msgid "Reply This Mail"
+msgstr "پاسخ به این پیام"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:20
+msgid "Back to Inbox"
+msgstr "بازگشت به پیام های دریافتی"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:41
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:30
+msgid "Inbox"
+msgstr "پیام های دریافتی"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:48
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:58
+msgid "Status"
+msgstr "وضعیت"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:49
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:59
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:37
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:46
+msgid "Date"
+msgstr "تاریخ"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:50
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:60
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:38
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:47
+msgid "From"
+msgstr "از"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:51
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/main.php:61
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:39
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:48
+msgid "Subject"
+msgstr "موضوع: "
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/private-message.php:43
+msgid "Messages"
+msgstr "پیام ها"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/private-message.php:44
+msgid "Write New"
+msgstr "پیام جدید"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/private-message.php:45
+msgid "Sent"
+msgstr "پیام های ارسال شده"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/private-message.php:46
+msgid "Send To All"
+msgstr "فرستادن برای همه"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sendtoall.php:15
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:20
+msgid "Write New Private Message"
+msgstr "پیامی جدید بفرستید"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sendtoall.php:19
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:34
+msgid "Subject: "
+msgstr "موضوع: "
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sendtoall.php:24
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:39
+msgid "Send Message"
+msgstr "فرستادن پیام"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/sent.php:16
+msgid "Back to Sent"
+msgstr "بازگشت به پیام های ارسال شده"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:12
+msgid "The message has been delivered to "
+msgstr "پیام تحویل داده شد."
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:24
+msgid "Recipent: "
+msgstr "دریافت کننده:"
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:34
+msgid "FW: "
+msgstr "بازارسال: "
+
+#: C:\xampp\htdocs\roma\wp-content\plugins\private-message/write.php:34
+msgid "Reply: "
+msgstr "پاسخ: "
+
+#~ msgid "Content: "
+#~ msgstr "متن پیام: "

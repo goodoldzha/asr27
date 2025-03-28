@@ -1,0 +1,273 @@
+0000.000 (0) Opened log file at time: Wed, 18 Aug 2021 19:00:26 +0000 on http://asroma27.com/v16
+0000.004 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.59 WP: 5.8 PHP: 7.4.22 (cgi-fcgi, Linux info 3.0 #1337 SMP Tue Jan 01 00:00:00 CEST 2000 all GNU/Linux) MySQL: 5.7.33-log (max packet size=67108864) WPLANG: en_US Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: -1 (used: 45.6M | 48.5M) multisite: N openssl: OpenSSL 1.1.1d  10 Sep 2019 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.008 (0) Free space on disk containing Updraft's temporary directory: 708566.4 MB
+0000.013 (0) Tasks: Backup files: 0 (schedule: unset) Backup DB: 1 (schedule: unset)
+0000.024 (0) Requesting semaphore lock (d) (apparently not via scheduler)
+0000.039 (0) Set semaphore last lock (d) time to 2021-08-18 19:00:26
+0000.043 (0) Semaphore lock (d) complete
+0000.054 (0) Backup run: resumption=0, nonce=2606f410a17d, file_nonce=2606f410a17d begun at=1629313226 (0s ago), job type=backup
+0000.075 (0) Scheduling a resumption (1) after 300 seconds (1629313526) in case this run gets aborted
+0000.127 (0) This backup run is not intended for files - skipping
+0000.131 (0) Beginning creation of database dump (WordPress DB)
+0000.135 (0) Couldn't get the sql_mode value (N;)
+0000.144 (0) SQL compatibility mode successfully changed to 
+0000.153 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0000.214 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1408 bytes total)
+0000.220 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0000.237 (0) Table wp_options: Total expected rows (approximate): 504
+0000.315 (0) Table wp_options: Rows added in this batch (next record: 885105): 511 (uncompressed bytes in this segment=709514) in 0.06 seconds
+0000.366 (0) Table wp_options: finishing file(s) (2, 131 KB)
+0000.379 (0) Table wp_users: Total expected rows (approximate): 40572
+0001.034 (0) Table wp_users: binary mysqldump finished (writes: 45, bytes 7114927, return code 0) in 0.65 seconds
+0001.063 (0) Table wp_users: finishing file(s) (1, 3100.1 KB)
+0001.074 (0) Table wp_usermeta: Total expected rows (approximate): 539709
+0001.082 (0) [Warning] Table wp_usermeta has very many rows (539709) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0002.677 (0) Table wp_usermeta: binary mysqldump finished (writes: 53, bytes 21691657, return code 0) in 1.59 seconds
+0002.694 (0) Table wp_usermeta: finishing file(s) (1, 3940.3 KB)
+0002.702 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 44
+0002.721 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 185405): 46 (uncompressed bytes in this segment=16784) in 0.01 seconds
+0002.743 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 2.3 KB)
+0002.756 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0002.761 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=636) in 0.00 seconds
+0002.775 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0002.788 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 2
+0002.793 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=705) in 0.00 seconds
+0002.811 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0002.825 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 99
+0002.833 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 26535): 132 (uncompressed bytes in this segment=12768) in 0.00 seconds
+0002.849 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 2 KB)
+0002.866 (0) Table wp_commentmeta: Total expected rows (approximate): 45
+0002.896 (0) Table wp_commentmeta: Rows added in this batch (next record: 1343261): 45 (uncompressed bytes in this segment=13667) in 0.02 seconds
+0002.920 (0) Table wp_commentmeta: finishing file(s) (2, 2.7 KB)
+0002.940 (0) Table wp_comments: Total expected rows (approximate): 7975
+0003.448 (0) Table wp_comments: Rows added in this batch (next record: 9090): 9023 (uncompressed bytes in this segment=4892852) in 0.50 seconds
+0003.464 (0) Table wp_comments: finishing file(s) (2, 1017.9 KB)
+0003.486 (0) Table wp_links: Total expected rows (approximate): 2
+0003.494 (0) Table wp_links: Rows added in this batch (next record: 21): 2 (uncompressed bytes in this segment=1314) in 0.00 seconds
+0003.515 (0) Table wp_links: finishing file(s) (2, 0.6 KB)
+0003.526 (0) Table wp_postmeta: Total expected rows (approximate): 421223
+0003.543 (0) [Warning] Table wp_postmeta has very many rows (421223) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0008.097 (0) Table wp_postmeta: binary mysqldump finished (writes: 165, bytes 139103463, return code 0) in 4.55 seconds
+0008.124 (0) Table wp_postmeta: finishing file(s) (1, 13031.3 KB)
+0008.134 (0) Table wp_posts: Total expected rows (approximate): 101858
+0017.519 (0) Table wp_posts: binary mysqldump finished (writes: 180, bytes 132519228, return code 0) in 9.38 seconds
+0017.536 (0) Table wp_posts: finishing file(s) (1, 27780 KB)
+0017.551 (0) Table wp_term_relationships: Total expected rows (approximate): 120958
+0017.729 (0) Table wp_term_relationships: binary mysqldump finished (writes: 31, bytes 1607639, return code 0) in 0.17 seconds
+0017.742 (0) Table wp_term_relationships: finishing file(s) (1, 326.5 KB)
+0017.755 (0) Table wp_term_taxonomy: Total expected rows (approximate): 538
+0017.783 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 549): 538 (uncompressed bytes in this segment=20199) in 0.02 seconds
+0017.815 (0) Table wp_term_taxonomy: finishing file(s) (2, 4.1 KB)
+0017.826 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0017.842 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=562) in 0.01 seconds
+0017.863 (0) Table wp_termmeta: finishing file(s) (2, 0.3 KB)
+0017.875 (0) Table wp_terms: Total expected rows (approximate): 538
+0017.896 (0) Table wp_terms: Rows added in this batch (next record: 547): 538 (uncompressed bytes in this segment=37720) in 0.02 seconds
+0017.913 (0) Table wp_terms: finishing file(s) (2, 8.8 KB)
+0017.923 (0) Table wp_useronline: Total expected rows (approximate): 23
+0017.935 (0) Table wp_useronline: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=9751) in 0.00 seconds
+0017.952 (0) Table wp_useronline: finishing file(s) (2, 2 KB)
+0017.958 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions
+0017.963 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions_type
+0017.969 (0) Skipping table (lacks our prefix (wp_)): pool_wp_bonusquestions_useranswers
+0017.976 (0) Skipping table (lacks our prefix (wp_)): pool_wp_groups
+0017.980 (0) Skipping table (lacks our prefix (wp_)): pool_wp_league_users
+0017.986 (0) Skipping table (lacks our prefix (wp_)): pool_wp_leagues
+0017.999 (0) Skipping table (lacks our prefix (wp_)): pool_wp_matches
+0018.005 (0) Skipping table (lacks our prefix (wp_)): pool_wp_matchtypes
+0018.010 (0) Skipping table (lacks our prefix (wp_)): pool_wp_predictions
+0018.015 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings
+0018.020 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings_bonusquestions
+0018.025 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings_matches
+0018.034 (0) Skipping table (lacks our prefix (wp_)): pool_wp_rankings_updatelog
+0018.040 (0) Skipping table (lacks our prefix (wp_)): pool_wp_scorehistory
+0018.045 (0) Skipping table (lacks our prefix (wp_)): pool_wp_shoutbox
+0018.053 (0) Skipping table (lacks our prefix (wp_)): pool_wp_stadiums
+0018.058 (0) Skipping table (lacks our prefix (wp_)): pool_wp_teams
+0018.063 (0) Skipping table (lacks our prefix (wp_)): pool_wp_user_updatelog_matches
+0018.069 (0) Skipping table (lacks our prefix (wp_)): pool_wp_user_updatelog_questions
+0018.080 (0) Table wp_aioseo_notifications: Total expected rows (approximate): 2
+0018.099 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3598) in 0.01 seconds
+0018.117 (0) Table wp_aioseo_notifications: finishing file(s) (2, 1.2 KB)
+0018.135 (0) Table wp_aioseo_posts: Total expected rows (approximate): 68621
+0019.429 (0) Table wp_aioseo_posts: binary mysqldump finished (writes: 118, bytes 40708613, return code 0) in 1.28 seconds
+0019.453 (0) Table wp_aioseo_posts: finishing file(s) (1, 2327.5 KB)
+0019.483 (0) Table wp_cimy_uef_data: Total expected rows (approximate): 0
+0019.491 (0) Table wp_cimy_uef_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=541) in 0.00 seconds
+0019.511 (0) Table wp_cimy_uef_data: finishing file(s) (2, 0.3 KB)
+0019.524 (0) Table wp_cimy_uef_fields: Total expected rows (approximate): 0
+0019.534 (0) Table wp_cimy_uef_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=672) in 0.00 seconds
+0019.568 (0) Table wp_cimy_uef_fields: finishing file(s) (2, 0.4 KB)
+0019.597 (0) Table wp_cimy_uef_wp_fields: Total expected rows (approximate): 0
+0019.606 (0) Table wp_cimy_uef_wp_fields: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=644) in 0.00 seconds
+0019.628 (0) Table wp_cimy_uef_wp_fields: finishing file(s) (2, 0.4 KB)
+0019.649 (0) Table wp_dynamic_widgets: Total expected rows (approximate): 31
+0019.660 (0) Table wp_dynamic_widgets: Rows added in this batch (next record: 137): 31 (uncompressed bytes in this segment=2156) in 0.01 seconds
+0019.677 (0) Table wp_dynamic_widgets: finishing file(s) (2, 0.7 KB)
+0019.689 (0) Table wp_hmp_playlist: Total expected rows (approximate): 1
+0019.695 (0) Table wp_hmp_playlist: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1385) in 0.00 seconds
+0019.721 (0) Table wp_hmp_playlist: finishing file(s) (2, 0.6 KB)
+0019.740 (0) Table wp_hmp_rating: Total expected rows (approximate): 0
+0019.752 (0) Table wp_hmp_rating: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=585) in 0.00 seconds
+0019.786 (0) Table wp_hmp_rating: finishing file(s) (2, 0.3 KB)
+0019.795 (0) Table wp_html5mp3_items: Total expected rows (approximate): 2
+0019.803 (0) Table wp_html5mp3_items: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1315) in 0.00 seconds
+0019.824 (0) Table wp_html5mp3_items: finishing file(s) (2, 0.5 KB)
+0019.835 (0) Table wp_html5mp3_playlist: Total expected rows (approximate): 1
+0019.842 (0) Table wp_html5mp3_playlist: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2579) in 0.00 seconds
+0019.854 (0) Table wp_html5mp3_playlist: finishing file(s) (2, 0.7 KB)
+0019.868 (0) Table wp_html5mp3_sales: Total expected rows (approximate): 0
+0019.876 (0) Table wp_html5mp3_sales: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=910) in 0.00 seconds
+0019.889 (0) Table wp_html5mp3_sales: finishing file(s) (2, 0.4 KB)
+0019.899 (0) Table wp_like_dislike_counters: Total expected rows (approximate): 962
+0019.910 (0) Table wp_like_dislike_counters: Rows added in this batch (next record: 962): 962 (uncompressed bytes in this segment=31832) in 0.01 seconds
+0019.941 (0) Table wp_like_dislike_counters: finishing file(s) (2, 6.3 KB)
+0019.953 (0) Table wp_notification: Total expected rows (approximate): 179655
+0019.962 (0) [Warning] Table wp_notification has very many rows (179655) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0020.664 (0) Table wp_notification: binary mysqldump finished (writes: 44, bytes 14967684, return code 0) in 0.70 seconds
+0020.681 (0) Table wp_notification: finishing file(s) (1, 1754.5 KB)
+0020.691 (0) Table wp_pc_message: Total expected rows (approximate): 11164
+0021.128 (0) Table wp_pc_message: binary mysqldump finished (writes: 38, bytes 5739905, return code 0) in 0.43 seconds
+0021.138 (0) Table wp_pc_message: finishing file(s) (1, 1007.9 KB)
+0021.148 (0) Table wp_pollsa: Total expected rows (approximate): 54
+0021.172 (0) Table wp_pollsa: Rows added in this batch (next record: 62): 54 (uncompressed bytes in this segment=2422) in 0.00 seconds
+0021.188 (0) Table wp_pollsa: finishing file(s) (2, 1.1 KB)
+0021.199 (0) Table wp_pollsip: Total expected rows (approximate): 3131
+0021.250 (0) Table wp_pollsip: Rows added in this batch (next record: 3132): 3131 (uncompressed bytes in this segment=284788) in 0.05 seconds
+0021.268 (0) Table wp_pollsip: finishing file(s) (2, 72.3 KB)
+0021.280 (0) Table wp_pollsq: Total expected rows (approximate): 15
+0021.288 (0) Table wp_pollsq: Rows added in this batch (next record: 17): 15 (uncompressed bytes in this segment=2862) in 0.00 seconds
+0021.308 (0) Table wp_pollsq: finishing file(s) (2, 1.3 KB)
+0021.317 (0) Table wp_sentry_groups: Total expected rows (approximate): 0
+0021.324 (0) Table wp_sentry_groups: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=592) in 0.00 seconds
+0021.340 (0) Table wp_sentry_groups: finishing file(s) (2, 0.3 KB)
+0021.349 (0) Table wp_table_statistics: Total expected rows (approximate): 6987
+0021.407 (0) Table wp_table_statistics: Rows added in this batch (next record: 7000): 6000 (uncompressed bytes in this segment=232057) in 0.05 seconds
+0021.421 (0) Table wp_table_statistics: finishing file(s) (2, 35.7 KB)
+0021.429 (0) Table wp_table_statistics_raw: Total expected rows (approximate): 97293
+0022.115 (0) Table wp_table_statistics_raw: binary mysqldump finished (writes: 71, bytes 12162690, return code 0) in 0.68 seconds
+0022.128 (0) Table wp_table_statistics_raw: finishing file(s) (1, 1323.8 KB)
+0022.140 (0) Table wp_tm_taskmeta: Total expected rows (approximate): 0
+0022.158 (0) Table wp_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=658) in 0.01 seconds
+0022.176 (0) Table wp_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0022.188 (0) Table wp_tm_tasks: Total expected rows (approximate): 0
+0022.198 (0) Table wp_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=876) in 0.01 seconds
+0022.233 (0) Table wp_tm_tasks: finishing file(s) (2, 0.4 KB)
+0022.272 (0) Table wp_uji_counter: Total expected rows (approximate): 1
+0022.310 (0) Table wp_uji_counter: Rows added in this batch (next record: 3): 1 (uncompressed bytes in this segment=1523) in 0.03 seconds
+0022.338 (0) Table wp_uji_counter: finishing file(s) (2, 0.7 KB)
+0022.359 (0) Table wp_uji_subscriptions: Total expected rows (approximate): 0
+0022.365 (0) Table wp_uji_subscriptions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=678) in 0.00 seconds
+0022.379 (0) Table wp_uji_subscriptions: finishing file(s) (2, 0.4 KB)
+0022.394 (0) Table wp_wp_rp_tags: Total expected rows (approximate): 185067
+0022.411 (0) [Warning] Table wp_wp_rp_tags has very many rows (185067) - we hope your web hosting company gives you enough resources to dump out that table in the backup. If not, you will need to either remove data from this table, or contact your hosting company to request more resources.
+0022.998 (0) Table wp_wp_rp_tags: binary mysqldump finished (writes: 38, bytes 8077612, return code 0) in 0.58 seconds
+0023.015 (0) Table wp_wp_rp_tags: finishing file(s) (1, 899 KB)
+0023.020 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_options.table.tmpr885106.gz (1/61/fopen): adding to final database dump
+0023.028 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_options.table.gz (2/61/fopen): adding to final database dump
+0023.031 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_users.table.gz (3/61/fopen): adding to final database dump
+0023.083 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_usermeta.table.gz (4/61/fopen): adding to final database dump
+0023.156 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_actions.table.tmpr185406.gz (5/61/fopen): adding to final database dump
+0023.162 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_actions.table.gz (6/61/fopen): adding to final database dump
+0023.166 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_claims.table.tmpr0.gz (7/61/fopen): adding to final database dump
+0023.170 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_claims.table.gz (8/61/fopen): adding to final database dump
+0023.176 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_groups.table.tmpr3.gz (9/61/fopen): adding to final database dump
+0023.181 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_groups.table.gz (10/61/fopen): adding to final database dump
+0023.187 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_logs.table.tmpr26536.gz (11/61/fopen): adding to final database dump
+0023.192 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_actionscheduler_logs.table.gz (12/61/fopen): adding to final database dump
+0023.196 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_commentmeta.table.tmpr1343262.gz (13/61/fopen): adding to final database dump
+0023.203 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_commentmeta.table.gz (14/61/fopen): adding to final database dump
+0023.215 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_comments.table.tmpr9091.gz (15/61/fopen): adding to final database dump
+0023.236 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_comments.table.gz (16/61/fopen): adding to final database dump
+0023.242 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_links.table.tmpr22.gz (17/61/fopen): adding to final database dump
+0023.246 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_links.table.gz (18/61/fopen): adding to final database dump
+0023.250 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_postmeta.table.gz (19/61/fopen): adding to final database dump
+0023.498 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_posts.table.gz (20/61/fopen): adding to final database dump
+0023.995 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_term_relationships.table.gz (21/61/fopen): adding to final database dump
+0024.006 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_term_taxonomy.table.tmpr550.gz (22/61/fopen): adding to final database dump
+0024.010 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_term_taxonomy.table.gz (23/61/fopen): adding to final database dump
+0024.015 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_termmeta.table.tmpr0.gz (24/61/fopen): adding to final database dump
+0024.018 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_termmeta.table.gz (25/61/fopen): adding to final database dump
+0024.022 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_terms.table.tmpr548.gz (26/61/fopen): adding to final database dump
+0024.026 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_terms.table.gz (27/61/fopen): adding to final database dump
+0024.029 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_useronline.table.tmpr1001.gz (28/61/fopen): adding to final database dump
+0024.033 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_useronline.table.gz (29/61/fopen): adding to final database dump
+0024.038 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_aioseo_notifications.table.tmpr3.gz (30/61/fopen): adding to final database dump
+0024.043 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_aioseo_notifications.table.gz (31/61/fopen): adding to final database dump
+0024.049 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_aioseo_posts.table.gz (32/61/fopen): adding to final database dump
+0024.093 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_data.table.tmpr0.gz (33/61/fopen): adding to final database dump
+0024.098 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_data.table.gz (34/61/fopen): adding to final database dump
+0024.102 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_fields.table.tmpr0.gz (35/61/fopen): adding to final database dump
+0024.108 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_fields.table.gz (36/61/fopen): adding to final database dump
+0024.115 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_wp_fields.table.tmpr0.gz (37/61/fopen): adding to final database dump
+0024.120 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_cimy_uef_wp_fields.table.gz (38/61/fopen): adding to final database dump
+0024.125 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_dynamic_widgets.table.tmpr138.gz (39/61/fopen): adding to final database dump
+0024.129 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_dynamic_widgets.table.gz (40/61/fopen): adding to final database dump
+0024.134 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_hmp_playlist.table.tmpr2.gz (41/61/fopen): adding to final database dump
+0024.138 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_hmp_playlist.table.gz (42/61/fopen): adding to final database dump
+0024.143 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_hmp_rating.table.tmpr0.gz (43/61/fopen): adding to final database dump
+0024.147 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_hmp_rating.table.gz (44/61/fopen): adding to final database dump
+0024.161 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_items.table.tmpr3.gz (45/61/fopen): adding to final database dump
+0024.174 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_items.table.gz (46/61/fopen): adding to final database dump
+0024.179 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_playlist.table.tmpr2.gz (47/61/fopen): adding to final database dump
+0024.183 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_playlist.table.gz (48/61/fopen): adding to final database dump
+0024.187 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_sales.table.tmpr0.gz (49/61/fopen): adding to final database dump
+0024.192 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_html5mp3_sales.table.gz (50/61/fopen): adding to final database dump
+0024.197 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_like_dislike_counters.table.tmpr963.gz (51/61/fopen): adding to final database dump
+0024.203 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_like_dislike_counters.table.gz (52/61/fopen): adding to final database dump
+0024.208 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_notification.table.gz (53/61/fopen): adding to final database dump
+0024.252 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pc_message.table.gz (54/61/fopen): adding to final database dump
+0024.276 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsa.table.tmpr63.gz (55/61/fopen): adding to final database dump
+0024.284 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsa.table.gz (56/61/fopen): adding to final database dump
+0024.288 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsip.table.tmpr3133.gz (57/61/fopen): adding to final database dump
+0024.299 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsip.table.gz (58/61/fopen): adding to final database dump
+0024.303 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsq.table.tmpr18.gz (59/61/fopen): adding to final database dump
+0024.310 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_pollsq.table.gz (60/61/fopen): adding to final database dump
+0024.317 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_sentry_groups.table.tmpr0.gz (61/61/fopen): adding to final database dump
+0024.330 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_sentry_groups.table.gz (62/61/fopen): adding to final database dump
+0024.334 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_table_statistics.table.tmpr7001.gz (63/61/fopen): adding to final database dump
+0024.339 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_table_statistics.table.gz (64/61/fopen): adding to final database dump
+0024.346 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_table_statistics_raw.table.gz (65/61/fopen): adding to final database dump
+0024.377 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_tm_taskmeta.table.tmpr0.gz (66/61/fopen): adding to final database dump
+0024.382 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_tm_taskmeta.table.gz (67/61/fopen): adding to final database dump
+0024.387 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_tm_tasks.table.tmpr0.gz (68/61/fopen): adding to final database dump
+0024.392 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_tm_tasks.table.gz (69/61/fopen): adding to final database dump
+0024.396 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_uji_counter.table.tmpr4.gz (70/61/fopen): adding to final database dump
+0024.402 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_uji_counter.table.gz (71/61/fopen): adding to final database dump
+0024.410 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_uji_subscriptions.table.tmpr0.gz (72/61/fopen): adding to final database dump
+0024.415 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_uji_subscriptions.table.gz (73/61/fopen): adding to final database dump
+0024.420 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db-table-wp_wp_rp_tags.table.gz (74/61/fopen): adding to final database dump
+0024.450 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db.gz: finished writing out complete database file (56788.5 KB)
+0025.031 (0) Total database tables backed up: 42 (backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db.gz, size: 58151544, sha1: 340cce97f7e419dc666304c54b18771858193efb, sha256: eb3c1c0c58a480eb816b82ee13dc04fc7cbfd58bc95f893cd30d684ddb3a0ec6)
+0025.049 (0) backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db.gz: db: This file has not yet been successfully uploaded: will queue
+0025.054 (0) Saving backup history. Total backup size: 55.5 MB
+0025.063 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0025.087 (0) Cloud backup selection (1/1): none with instance (1/1) (last)
+0025.092 (0) No remote despatch: user chose no remote backup service
+0025.097 (0) Recording as successfully uploaded: backup_2021-08-18-2330_asroma27com_v16_2606f410a17d-db.gz
+0025.110 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0025.118 (0) Number of backup sets in history: 4; groups (db): 1
+0025.122 (0) Examining (for databases) backup set with group_id=0, nonce=2606f410a17d, datestamp=1629313226 (Aug 18 2021 19:00:26)
+0025.127 (0) This backup set is the backup set just made, so will not be deleted.
+0025.127 (0) Examining (for databases) backup set with group_id=0, nonce=c2b3a3e15368, datestamp=1629313156 (Aug 18 2021 18:59:16)
+0025.127 (0) This backup set (1629313156) was an 'Always Keep' backup, and we have not yet reached any retain limits, so it should be counted in the count of how many have been retained for purposes of the 'how many to retain' count. It will not be pruned. Skipping.
+0025.127 (0) Examining (for databases) backup set with group_id=0, nonce=d3417f3e906e, datestamp=1567006430 (Aug 28 2019 15:33:50)
+0025.127 (0) This backup set (1567006430) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0025.127 (0) Examining (for databases) backup set with group_id=0, nonce=5822940997b9, datestamp=1566996274 (Aug 28 2019 12:44:34)
+0025.127 (0) This backup set (1566996274) was an 'Always Keep' backup, so it will not be pruned. Skipping.
+0025.128 (0) Number of backup sets in history: 4; groups (files): 1
+0025.132 (0) Examining (for files) backup set with nonce=2606f410a17d, datestamp=1629313226 (Aug 18 2021 19:00:26)
+0025.132 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0025.136 (0) Examining (for files) backup set with nonce=c2b3a3e15368, datestamp=1629313156 (Aug 18 2021 18:59:16)
+0025.136 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0025.136 (0) Examining (for files) backup set with nonce=d3417f3e906e, datestamp=1567006430 (Aug 28 2019 15:33:50)
+0025.136 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0025.136 (0) Examining (for files) backup set with nonce=5822940997b9, datestamp=1566996274 (Aug 28 2019 12:44:34)
+0025.136 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0025.136 (0) Retain: saving new backup history (sets now: 4) and finishing retain operation
+0025.146 (0) Resume backup (2606f410a17d, 0): finish run
+0025.156 (0) Decremented the semaphore (d) by 1
+0025.166 (0) Semaphore (d) unlocked
+0025.172 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0025.185 (0) No email will/can be sent - the user has not configured an email address.
+0025.190 (0) The backup apparently succeeded and is now complete

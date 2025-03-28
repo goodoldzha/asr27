@@ -1,0 +1,313 @@
+/***************************************************************/
+/*************************** Buttons ***************************/
+/***************************************************************/
+
+.postechin_button{
+	font-family: Tahoma;
+	display: inline-block;
+	padding: 4px 13px;
+	margin:3px 2px 3px 2px;
+	border: 1px solid #555;
+	border-bottom-color: #20559a;
+	color: white !important;
+	text-align: center;
+	text-shadow: 0 -1px 0 hsla(0,0%,0%,.3);
+	text-decoration: none !important;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	cursor: pointer;
+	-moz-box-shadow: 0px 0px 5px #ccc;
+	-webkit-box-shadow: 0px 0px 5px #ccc;
+	box-shadow: 0px 0px 5px #ccc;
+
+}
+/* Buttons Colors */
+.blue{
+background: #87e0fd;
+background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 40%, #05abe0 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#87e0fd), color-stop(40%,#53cbf1), color-stop(100%,#05abe0));
+background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+background: -o-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%);
+background: -ms-linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#05abe0',GradientType=0 );
+background: linear-gradient(top, #87e0fd 0%,#53cbf1 40%,#05abe0 100%); 
+}
+.red{
+background: #ff3019;
+background: -moz-linear-gradient(top, #ff3019 0%, #cf0404 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff3019), color-stop(100%,#cf0404));
+background: -webkit-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: -o-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+background: -ms-linear-gradient(top, #ff3019 0%,#cf0404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff3019', endColorstr='#cf0404',GradientType=0 );
+background: linear-gradient(top, #ff3019 0%,#cf0404 100%);
+}
+.orange{
+background: #f9c667;
+background: -moz-linear-gradient(top, #f9c667 0%, #f79621 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9c667), color-stop(100%,#f79621));
+background: -webkit-linear-gradient(top, #f9c667 0%,#f79621 100%);
+background: -o-linear-gradient(top, #f9c667 0%,#f79621 100%);
+background: -ms-linear-gradient(top, #f9c667 0%,#f79621 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9c667', endColorstr='#f79621',GradientType=0 );
+background: linear-gradient(top, #f9c667 0%,#f79621 100%);
+}
+.green{
+background: #b6e026;
+background: -moz-linear-gradient(top, #b6e026 0%, #a5cc1e 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#b6e026), color-stop(100%,#a5cc1e));
+background: -webkit-linear-gradient(top, #b6e026 0%,#a5cc1e 100%);
+background: -o-linear-gradient(top, #b6e026 0%,#a5cc1e 100%);
+background: -ms-linear-gradient(top, #b6e026 0%,#a5cc1e 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b6e026', endColorstr='#a5cc1e',GradientType=0 );
+background: linear-gradient(top, #b6e026 0%,#a5cc1e 100%);
+}
+.gray{
+background: #eeeeee;
+background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc));
+background: -webkit-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+background: -o-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+background: -ms-linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 );
+background: linear-gradient(top, #eeeeee 0%,#cccccc 100%);
+text-shadow: #EEE 0px 1px 0px;
+color: #555 !important;
+}
+.purple{
+background: #cb60b3;
+background: -moz-linear-gradient(top, #cb60b3 0%, #ad1283 50%, #de47ac 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#cb60b3), color-stop(50%,#ad1283), color-stop(100%,#de47ac));
+background: -webkit-linear-gradient(top, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+background: -o-linear-gradient(top, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+background: -ms-linear-gradient(top, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#de47ac',GradientType=0 );
+background: linear-gradient(top, #cb60b3 0%,#ad1283 50%,#de47ac 100%);
+}
+.dust{
+background: #d5cea6;
+background: -moz-linear-gradient(top, #d5cea6 0%, #cdc290 50%, #bcaf6d 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5cea6), color-stop(50%,#cdc290), color-stop(100%,#bcaf6d));
+background: -webkit-linear-gradient(top, #d5cea6 0%,#cdc290 50%,#bcaf6d 100%);
+background: -o-linear-gradient(top, #d5cea6 0%,#cdc290 50%,#bcaf6d 100%);
+background: -ms-linear-gradient(top, #d5cea6 0%,#cdc290 50%,#bcaf6d 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#bcaf6d',GradientType=0 );
+background: linear-gradient(top, #d5cea6 0%,#ad1283 50%,#bcaf6d 100%);
+}
+.black{
+background: #646464;
+background: -moz-linear-gradient(top, #646464 0%, #313131 50%, #040404 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#646464), color-stop(50%,#313131), color-stop(100%,#040404));
+background: -webkit-linear-gradient(top, #646464 0%,#313131 50%,#040404 100%);
+background: -o-linear-gradient(top, #646464 0%,#313131 50%,#040404 100%);
+background: -ms-linear-gradient(top, #646464 0%,#313131 50%,#040404 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#646464', endColorstr='#040404',GradientType=0 );
+background: linear-gradient(top, #646464 0%,#ad1283 50%,#040404 100%);
+}
+.dark-blue{
+background: #01009e;
+background: -moz-linear-gradient(top, #01009e 0%, #00007f 50%, #000059 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#01009e), color-stop(50%,#00007f), color-stop(100%,#000059));
+background: -webkit-linear-gradient(top, #01009e 0%,#00007f 50%,#000059 100%);
+background: -o-linear-gradient(top, #01009e 0%,#00007f 50%,#000059 100%);
+background: -ms-linear-gradient(top, #01009e 0%,#00007f 50%,#000059 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#01009e', endColorstr='#000059',GradientType=0 );
+background: linear-gradient(top, #01009e 0%,#ad1283 50%,#000059 100%);
+}
+.pink{
+background: #fe9bfd;
+background: -moz-linear-gradient(top, #fe9bfd 0%, #ff65f9 50%, #eb3dee 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fe9bfd), color-stop(50%,#ff65f9), color-stop(100%,#eb3dee));
+background: -webkit-linear-gradient(top, #fe9bfd 0%,#ff65f9 50%,#eb3dee 100%);
+background: -o-linear-gradient(top, #fe9bfd 0%,#ff65f9 50%,#eb3dee 100%);
+background: -ms-linear-gradient(top, #fe9bfd 0%,#ff65f9 50%,#eb3dee 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fe9bfd', endColorstr='#eb3dee',GradientType=0 );
+background: linear-gradient(top, #fe9bfd 0%,#ad1283 50%,#eb3dee 100%);
+}
+.blue:hover{ background: #43d1ff;} .blue:active{ background: #11c0f9; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.red:hover{ background: #fd5a48;} .red:active{ background: #ff6b5b; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.orange:hover{ background: #f4bd56;} .orange:active{ background: #fbcb70; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.green:hover{ background: #bae42c;} .green:active{ background: #b0d826; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.gray:hover{ background: #d1d1d1;} .gray:active{ background: #d7d7d7; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.purple:hover{ background: #c055a8;} .purple:active{ background: #ad4095; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.dust:hover{ background: #ccc59c;} .dust:active{ background: #b9b182; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.black:hover{ background: #494949;} .black:active{ background: #3c3c3c; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.dark-blue:hover{ background: #0100c6;} .dark-blue:active{ background: #0201d2; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+.pink:hover{ background: #fd7afc;} .pink:active{ background: #ff4dfd; -moz-box-shadow:inset 0 0 3px #666;  -webkit-box-shadow:inset 0 0 3px #666;   box-shadow:inset 0 0 3px #666;}
+
+/* Buttons Size */
+.medium{ font-size: 17px;}
+.small{  font-size: 12px; padding: 3px 8px;  }
+.large{  font-size: 22px; padding: 7px 13px; }
+/* Buttons Icon */
+.icon-download{	background: url(../images/download.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-accept{	background: url(../images/accept.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-apple{	background: url(../images/apple.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-attach{	background: url(../images/attach.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-award{	background: url(../images/award.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-basket{	background: url(../images/basket.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-book{	background: url(../images/book.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-box-download{	background: url(../images/box-download.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-green{	background: url(../images/bullet-green.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-pink{	background: url(../images/bullet-pink.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-purple{	background: url(../images/bullet-purple.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-red{	background: url(../images/bullet-red.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-white{	background: url(../images/bullet-white.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-bullet-yellow{	background: url(../images/bullet-yellow.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-cancel{	background: url(../images/cancel.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-cd{	background: url(../images/cd.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-chart{	background: url(../images/chart.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-check{	background: url(../images/check.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-comment{	background: url(../images/comment.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-email{	background: url(../images/email.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-feed{	background: url(../images/feed.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-film{	background: url(../images/film.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-flag{	background: url(../images/flag.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-folder{	background: url(../images/folder.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-heart{	background: url(../images/heart.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-help{	background: url(../images/help.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-link{	background: url(../images/link.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-lock{	background: url(../images/lock.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-medal{	background: url(../images/medal.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-minus{	background: url(../images/minus.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-movie{	background: url(../images/movie.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-music{	background: url(../images/music.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-page{	background: url(../images/page.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-pdf{	background: url(../images/pdf.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-photo{	background: url(../images/photo.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-plus{	background: url(../images/plus.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-setting{	background: url(../images/setting.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-star{	background: url(../images/star.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-time{	background: url(../images/time.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-user{	background: url(../images/user.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-world{	background: url(../images/world.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+.icon-zip{	background: url(../images/zip.png) no-repeat right center;	padding: 3px 20px 3px 8px; }
+
+
+
+/***************************************************************/
+/***************************** Box *****************************/
+/***************************************************************/
+.postechin_box{
+	padding: 10px 10px 10px 0;
+	margin: 5px 3px;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-box-shadow: 0px 0px 5px #cacaca;
+	-webkit-box-shadow: 0px 0px 5px #cacaca;
+	-moz-box-shadow:inset 0 0 5px #E7F3FF;  -webkit-box-shadow:inset 0 0 5px #E7F3FF;   box-shadow:inset 0 0 5px #E7F3FF;
+	box-shadow: 0px 0px 5px #cacaca;
+}
+.box-accept .box_content{ background: url(../images/48-accept.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-user .box_content{ background: url(../images/48-user.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-note .box_content{ background: url(../images/48-note.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-warning .box_content{ background: url(../images/48-warning.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-info .box_content{ background: url(../images/48-info.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-star .box_content{ background: url(../images/48-star.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+.box-download .box_content{ background: url(../images/48-download.png) no-repeat right top;	min-height: 40px;	padding: 8px 60px 0 0; }
+/* Box Color */
+.box-normal{
+	background: #ececec;
+	border: 1px solid #cacaca;
+	color: #555;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-note{
+	background: #ececec;
+	border: 1px solid #cacaca;
+	color: #555;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-accept{
+	background: #C0F0B3;
+	border: 1px solid #75dc59;
+	color: #2c7019;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-user{
+	background: #BEDEFF;
+	border: 1px solid #2eacda;
+	color: #294f88;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-warning{
+	background: #FFCEBE;
+	border: 1px solid #ffa385;
+	color: #892727;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-info{
+	background: #fcfac9;
+	border: 1px solid #ffd83e;
+	color: #892727;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-star{
+	background: #fcfac9;
+	border: 1px solid #ffd83e;
+	color: #892727;
+	text-shadow: #EEE 0px 1px 0px;
+}
+.box-download{
+	background: #C0F0B3;
+	border: 1px solid #75dc59;
+	color: #2c7019;
+	text-shadow: #EEE 0px 1px 0px;
+}
+
+
+/***************************************************************/
+/***************************** Tweet ***************************/
+/***************************************************************/
+.postechin-twitter.left { margin:0 1.5em 1.5em 0; float:left; }
+.postechin-twitter.none { margin:0 0 1.5em 0;  }
+.postechin-twitter.right { margin:0 0 1.5em 1.5em; float:right;  }
+
+/***************************************************************/
+/****************************** Digg ***************************/
+/***************************************************************/
+.postechin-digg.left { margin:0 1.5em 1.5em 0; float:left; }
+.postechin-digg.none { margin:0 0 1.5em 0;  }
+.postechin-digg.right { margin:0 0 1.5em 1.5em; float:right;  }
+
+/***************************************************************/
+/************************** Facebook ***************************/
+/***************************************************************/
+.postechin-fbshare.left { margin:0 1.5em 1.5em 0; float:left; }
+.postechin-fbshare.none { margin:0 0 1.5em 0;  }
+.postechin-fbshare.right { margin:0 0 1.5em 1.5em; float:right;  }
+
+.postechin-fblike.left { margin:0 1.5em 1.5em 0; float:left; }
+.postechin-fblike.none { margin:0 0 1.5em 0;  }
+.postechin-fblike.right { margin:0 0 1.5em 1.5em; float:right;  }
+
+
+/***************************************************************/
+/**************************** Quote ****************************/
+/***************************************************************/
+.postechin_quote{
+	padding: 10px 60px 10px 10px;
+	background: url(../images/quote.png) no-repeat right top;
+	min-height: 45px;
+	width: 90%;
+	font-style:italic;
+	float: left;
+}
+/***************************************************************/
+/**************************** List *****************************/
+/***************************************************************/
+.entry .postechin-unorderedlist ul li, .postechin-unorderedlist ul li, .entry .postechin-unorderedlist ul li ul, .postechin-unorderedlist ul li ul {
+   list-style-type: none;
+   padding-right:25px;
+   background: url() no-repeat scroll right top;
+}
+
+.entry .postechin-unorderedlist.tick ul li, .postechin-unorderedlist.tick ul li { background: url(../images/12-tick.png) no-repeat right top; }
+.entry .postechin-unorderedlist.cancel ul li, .postechin-unorderedlist.cancel ul li { background: url(../images/12-cancel.png) no-repeat right top; }
+.entry .postechin-unorderedlist.red ul li, .postechin-unorderedlist.red ul li { background: url(../images/12-red.png) no-repeat right top; }
+.entry .postechin-unorderedlist.gray ul li, .postechin-unorderedlist.gray ul li { background: url(../images/12-gray.png) no-repeat right top; }
+.entry .postechin-unorderedlist.music ul li, .postechin-unorderedlist.music ul li { background: url(../images/12-music.png) no-repeat right top; }
+.entry .postechin-unorderedlist.star ul li, .postechin-unorderedlist.star ul li { background: url(../images/12-star.png) no-repeat right top; }
+.entry .postechin-unorderedlist.stick ul li, .postechin-unorderedlist.stick ul li { background: url(../images/12-stick.png) no-repeat right top; }

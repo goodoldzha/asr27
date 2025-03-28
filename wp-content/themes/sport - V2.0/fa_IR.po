@@ -1,0 +1,1013 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fifa Persia\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-07-31 20:45+0330\n"
+"PO-Revision-Date: 2011-07-31 20:45+0330\n"
+"Last-Translator: Peyman3d <peyman_eskandari@yahoo.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\roma\\wp-content\\themes\\sport - V2.0\n"
+"X-Poedit-Language: Persian\n"
+"X-Poedit-Country: IRAN, ISLAMIC REPUBLIC OF\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\roma\\wp-content\\themes\\sport - V2.0\n"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/archive.php:4
+#: V2.0/category.php:4
+#: V2.0/page-photo.php:9
+msgid "Posts for:"
+msgstr "مطالب برای: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/archive.php:18
+#: V2.0/category.php:18
+#: V2.0/functions.php:2038
+#: V2.0/index.php:32
+#: V2.0/index.php:69
+#: V2.0/page-article.php:24
+#: V2.0/page-news.php:24
+msgid " comments"
+msgstr " نظر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:17
+msgid "Enter your password to view comments."
+msgstr "برای مشاهده نظرات رمز را وارد کنید"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:101
+#: V2.0/comments.php:119
+msgid "No Comments Yet"
+msgstr "بدون نظر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:116
+msgid "Leave a comment"
+msgstr "نظری بنویسید."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:119
+msgid "You must be"
+msgstr "شما باید"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:120
+msgid "logged in"
+msgstr "به سایت وارد شوید"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:120
+msgid "to post a comment."
+msgstr "تا نظری بنویسید"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:129
+#: V2.0/footer.php:94
+msgid "Logout"
+msgstr "خارج شدن"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:135
+msgid "Name"
+msgstr "نام"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:135
+#: V2.0/comments.php:138
+msgid " (required)"
+msgstr "(ضروری)"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:138
+msgid "E-mail (will not be published)"
+msgstr "رایانامه (منتشر نخواهد شد)"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:141
+msgid "Website"
+msgstr "وب سایت"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:157
+msgid "Submit"
+msgstr "ارسال"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/comments.php:167
+msgid "Sorry, comments for this entry are closed at this time."
+msgstr "متاسفیم؛ بخش نظرات برای این مطلب بسته شده است."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:78
+msgid "Copy Right"
+msgstr "کليه حقوق محفوظ مي باشد - نقل قول مطالب تنها با ذکر منبع بلامانع است "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:79
+msgid "Design"
+msgstr "طراحی: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:79
+msgid "Postechin"
+msgstr "پوسته چین (پیمان اسکندری)"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:93
+msgid "Profile"
+msgstr "شناسه کاربری"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:95
+msgid "Change Avatar"
+msgstr "تغییر نگاره شناسه"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:119
+msgid " to your comment on "
+msgstr " به نظر شما در مطلب "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:119
+msgid " answer."
+msgstr " پاسخ داده است."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:157
+msgid "Important News:"
+msgstr "خبر فوری: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:182
+msgid "User:"
+msgstr "نام کاربری:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:183
+msgid "Password:"
+msgstr "رمز عبور: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:184
+msgid "Remember me"
+msgstr "به خاطر بسپار"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:185
+msgid "Login"
+msgstr "ورود"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:188
+msgid "Register"
+msgstr "ثبت نام"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/footer.php:189
+msgid "Recover Password"
+msgstr "رمز را فراموش کرده اید؟"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:5
+#: V2.0/functions.php:6
+msgid "Article"
+msgstr "مقاله"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:16
+#: V2.0/functions.php:17
+msgid "Match"
+msgstr "بازی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:27
+#: V2.0/functions.php:28
+msgid "Player"
+msgstr "بازیکن"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:38
+#: V2.0/functions.php:39
+msgid "Photo"
+msgstr "تصاویر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:49
+#: V2.0/functions.php:50
+msgid "Video"
+msgstr "ویدئو"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:60
+#: V2.0/functions.php:61
+msgid "Magazine"
+msgstr "مجله: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:71
+#: V2.0/functions.php:72
+msgid "Download"
+msgstr "بارگزاری"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "AS Roma"
+msgstr "آ اس رم"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Atalanta"
+msgstr "آتالانتا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Bologna"
+msgstr "بلونیا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Cagliari"
+msgstr "کالیاری"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Catania"
+msgstr "کاتانیا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Cesena"
+msgstr "چزنا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Chievo"
+msgstr "کیوو"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Fiorentina"
+msgstr "فیورنتینا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Genoa"
+msgstr "جنووا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Internazionale"
+msgstr "اینتر میلان"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Juventus"
+msgstr "یوونتوس"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Lazio"
+msgstr "لاتزیو"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Lecce"
+msgstr "لچه"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Milan"
+msgstr "آث میلان"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Napoli"
+msgstr "ناپولی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Palermo"
+msgstr "پالرمو"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Parma"
+msgstr "پارما"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Siena"
+msgstr "سینا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:109
+msgid "Udinese"
+msgstr "اودینیزه"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1441
+#: V2.0/functions.php:1495
+#: V2.0/functions.php:1587
+#: V2.0/functions.php:1658
+#: V2.0/functions.php:1962
+msgid "Show Ad in Postechin Theme"
+msgstr "بدون"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1443
+msgid "Postechin Ad - 940*100"
+msgstr "تبلیغات پوسته چین - 940*100"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1477
+#: V2.0/functions.php:1694
+msgid "Image URL:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1483
+#: V2.0/functions.php:1700
+msgid "Link URL (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1497
+msgid "Postechin Ad 312*140"
+msgstr "تبلیغات پوسته چین - 312*140"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1545
+#: V2.0/functions.php:1628
+msgid "Image 1 URL:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1551
+#: V2.0/functions.php:1634
+msgid "Link 1 URL (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1557
+#: V2.0/functions.php:1640
+msgid "Image 2 URL:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1563
+#: V2.0/functions.php:1646
+msgid "Link 2 URL (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1569
+msgid "Image 3 URL:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1575
+msgid "Link 3 URL (optional):"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1589
+msgid "Postechin Ad 468*60"
+msgstr "تبلیغات پوسته چین - 480*60"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1660
+msgid "Postechin Ad - 170"
+msgstr "تبلیغات پوسته چین - 170"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1767
+msgid "List scheduled/upcoming posts"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1768
+#: V2.0/functions.php:1774
+msgid "Upcoming Posts"
+msgstr "افزودن مطلب"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1826
+msgid "Title:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1830
+msgid "Number of posts to show:"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1832
+msgid "(at most 15)"
+msgstr ""
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1964
+msgid "Stat"
+msgstr "آمار"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1977
+msgid "Stats"
+msgstr "آمار"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1978
+msgid "Online:"
+msgstr "افراد آنلاین: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1979
+msgid "Today Visits:"
+msgstr "بازدیدهای امروز:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1980
+msgid "Yesterday Visits:"
+msgstr "بازدیدهای دیروز:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1981
+msgid "All Visits:"
+msgstr "کل بازدیدها:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/functions.php:1982
+msgid "Post Count:"
+msgstr "تعداد مطالب: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/index.php:47
+msgid "Last News"
+msgstr "آخرین اخبار"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/index.php:82
+msgid "Last Photos"
+msgstr "آخرین تصاویر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/index.php:112
+msgid "Last Video"
+msgstr "آخرین ویدئوها"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/index.php:142
+#: V2.0/page-download.php:9
+msgid "Last Downloads"
+msgstr "آخرین فایلها"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-article.php:9
+msgid "Articles"
+msgstr "مقالات"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-download.php:25
+msgid "Download Size:"
+msgstr "حجم: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-full.php:31
+#: V2.0/page-sitemap.php:41
+msgid "Not Found"
+msgstr "مطلبی پیدا نشد"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-match.php:9
+msgid "Match Archives"
+msgstr "آرشیو بازی ها"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-match.php:33
+msgid "Match Date:"
+msgstr "تاریخ: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-match.php:34
+msgid "Stadium:"
+msgstr "ورزشگاه: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-match.php:35
+msgid "Refree:"
+msgstr "داور: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-match.php:36
+msgid "TV Channels:"
+msgstr "کانالهای پخش: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-news.php:9
+msgid "News"
+msgstr "اخبار "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:9
+msgid "Players"
+msgstr "بازیکنان"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:23
+msgid "Position:"
+msgstr "پست بازی: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:24
+msgid "Goalkeeper"
+msgstr "دروازبان"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:25
+msgid "Defender"
+msgstr "مدافع"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:26
+msgid "Midfielder"
+msgstr "هافبک"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:27
+msgid "Striker"
+msgstr "مهاجم"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-player.php:28
+msgid "Manager/Coach"
+msgstr "سرمربی / مدیر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:27
+msgid "Singer"
+msgstr "خواننده"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:28
+msgid "Music genre"
+msgstr "سبک موسیقی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:29
+msgid "Cast"
+msgstr "بازیگران: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:30
+msgid "Director"
+msgstr "کارگردان:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:31
+msgid "Movie"
+msgstr "فیلم"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/page-sitemap.php:32
+msgid "Series"
+msgstr "سریال"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/searchform.php:4
+msgid "Search"
+msgstr "جستجو"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/sidebar.php:2
+msgid "Next Match"
+msgstr "بازی آینده"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/sidebar.php:22
+#: V2.0/sidebar.php:56
+msgid "Match Details"
+msgstr "جزئیات بازی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/sidebar.php:35
+msgid "Previous Match"
+msgstr "بازی گذشته"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:33
+msgid "Preview"
+msgstr "پیش بازی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:34
+msgid "Teams Squad"
+msgstr "ترکیب تیم ها"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:35
+msgid "Game Report"
+msgstr "گزارش بازی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:36
+msgid "Match Stats"
+msgstr "آمار"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:37
+msgid "Live Commentry"
+msgstr "گزارش زنده"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:38
+msgid "Comments"
+msgstr "نظرات"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:39
+msgid "Predict"
+msgstr "پیش بینی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:49
+msgid "Home:"
+msgstr "میزبان: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:50
+#: V2.0/single-match.php:76
+msgid "Coach:"
+msgstr "سرمربی: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:50
+#: V2.0/single-match.php:76
+msgid "System:"
+msgstr "سیستم: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:72
+#: V2.0/single-match.php:98
+#: V2.0/single-match.php:112
+#: V2.0/single-match.php:183
+msgid "No formation for "
+msgstr "ترکیب برای "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:72
+#: V2.0/single-match.php:98
+#: V2.0/single-match.php:112
+#: V2.0/single-match.php:183
+msgid " found."
+msgstr " یافت نشد."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:75
+msgid "Away:"
+msgstr "مهمان:"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:101
+#: V2.0/single-match.php:188
+msgid "No report found."
+msgstr "هیچ گزارشی یافت نشد."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:101
+#: V2.0/single-match.php:163
+#: V2.0/single-match.php:188
+msgid "Game is not play yet."
+msgstr "این بازی هنوز برگزار نشده است."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:119
+msgid "Total Shot"
+msgstr "شوت به دروازه"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:124
+msgid "Shot On Target"
+msgstr "شوت داخل چارچوب"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:129
+msgid "Pass Accuracy"
+msgstr "درصد پاس صحیح"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:134
+msgid "Offside"
+msgstr "آفساید"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:139
+msgid "Foul"
+msgstr "خطا"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:144
+msgid "Yellow Card"
+msgstr "کارت زرد"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:149
+msgid "Red Card"
+msgstr "کارت قرمز"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:154
+msgid "Corner"
+msgstr "کرنر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:158
+msgid "Ball Possession"
+msgstr "درصد مالکیت توپ"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:166
+msgid "History of last 10 Season"
+msgstr "نتایج  بازی های 10 فصل آخر"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:167
+#: V2.0/single-match.php:168
+msgid "Win "
+msgstr "برد "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:169
+msgid "Draw "
+msgstr "تساوی"
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-match.php:196
+msgid "Coming Soon."
+msgstr "بزودی..."
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:16
+msgid "Date of Birth:"
+msgstr "تاریخ تولد: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:17
+msgid "Nationality:"
+msgstr "ملیت: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:18
+msgid "Height:"
+msgstr "قد: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:19
+msgid "Weight:"
+msgstr "وزن: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:27
+msgid "Previus Teams:"
+msgstr "تیم های گذشته: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:28
+msgid "First match for Roma:"
+msgstr "اولین بازی برای رم: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:29
+msgid "Club match count:"
+msgstr "تعداد بازی های باشگاهی: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:30
+msgid "National match count:"
+msgstr "تعداد بازی های ملی: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:31
+msgid "Contract Time/Value:"
+msgstr "مدت قرارداد / ارزش: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/single-player.php:32
+msgid "Squad Number:"
+msgstr "شماره: "
+
+#: C:\xampp\htdocs\roma\wp-content\themes\sport
+#: - V2.0/slider.php:58
+msgid "More"
+msgstr "ادامه مطلب"
+
+#~ msgid "Last Articles"
+#~ msgstr "آخرین مقالات"
+
+#~ msgid "Comment post:"
+#~ msgstr "تعداد نظرات: "
+
+#~ msgid "Post sent:"
+#~ msgstr "تعداد مطالب: "
+
+#~ msgid "Dashboard"
+#~ msgstr "پیش خوان"
+
+#~ msgid "Add News"
+#~ msgstr "افزودن خبر"
+
+#~ msgid "Add Article"
+#~ msgstr "افزودن مقاله"
+
+#~ msgid "Add Match"
+#~ msgstr "افزودن بازی"
+
+#~ msgid "Add Photo"
+#~ msgstr "افزودن تصویر"
+
+#~ msgid "Log In"
+#~ msgstr "ورود به سایت"
+
+#~ msgid "Last News and Articles"
+#~ msgstr "آخرین اخبار و مقالات"
+
+#~ msgid "No"
+#~ msgstr "بدون"
+
+#~ msgid "<br/>System:"
+#~ msgstr "سیستم"
+
+#~ msgid "Logged in as"
+#~ msgstr "وارد شده با نام "
+
+#~ msgid "Search results for:"
+#~ msgstr "نتایج جستجو برای: "
+
+#~ msgid "Lyric:"
+#~ msgstr "ترانه سرا: "
+
+#~ msgid "Arrangement:"
+#~ msgstr "تنظیم کننده: "
+
+#~ msgid "Composer:"
+#~ msgstr "آهنگساز: "
+
+#~ msgid "Cast:"
+#~ msgstr "بازیگران: "
+
+#~ msgid "Director:"
+#~ msgstr "کارگردان:"
+
+#~ msgid "Date:"
+#~ msgstr "تاریخ: "
+
+#~ msgid "Format:"
+#~ msgstr "فرمت: "
+
+#~ msgid "Season:"
+#~ msgstr "فصل: "
+
+#~ msgid "Episode:"
+#~ msgstr "قسمت: "
+
+#~ msgid "Single Songs"
+#~ msgstr "تک آهنگ"
+
+#~ msgid "Album"
+#~ msgstr "آلبوم"
+
+#~ msgid "Control Panel"
+#~ msgstr "پنل کاربری"
+
+#~ msgid ",Welcome"
+#~ msgstr "، خوش آمدید"
+
+#~ msgid "Enter the password to view comments."
+#~ msgstr "برای مشاهده نظرات رمز را وارد کنید"
+
+#~ msgid "Your comment is awaiting moderation."
+#~ msgstr "نظر شما در انتظار تایید است."
+
+#~ msgid "Comments are closed."
+#~ msgstr "بخش نظرات بسته است."
+
+#~ msgid "You Must Be"
+#~ msgstr "شما باید "
+
+#~ msgid "logged In"
+#~ msgstr "وارد شده به سایت"
+
+#~ msgid "To Post A Comment"
+#~ msgstr "برای نوشتن نظر"
+
+#~ msgid "(required)"
+#~ msgstr "(ضروری)"
+
+#~ msgid "Mail (Will not published)"
+#~ msgstr "رایانامه (منتشر نخواهد شد)"
+
+#~ msgid "You can be the first to comment!"
+#~ msgstr "می توانید اولین نفر باشید."
+
+#, fuzzy
+#~ msgid "Berries"
+#~ msgstr "سریال"
+
+#, fuzzy
+#~ msgid "Fern"
+#~ msgstr "فرانسه"
+
+#, fuzzy
+#~ msgid "Path"
+#~ msgstr "بازی"
+
+#~ msgid "Peyman"
+#~ msgstr " پیمان اسکندری"
+
+#~ msgid "Modify Table"
+#~ msgstr "اصلاح جدول ها"
+
+#~ msgid "Club Birth"
+#~ msgstr "سال تاسیس:"
+
+#~ msgid "Club First Year"
+#~ msgstr "اولین حضور در لیگ:"
+
+#~ msgid "Honors"
+#~ msgstr "افتخارات:"
+
+#~ msgid "Pre Match"
+#~ msgstr "پیش نمایش بازی"
+
+#~ msgid "England"
+#~ msgstr "انگلستان"
+
+#~ msgid "Spain"
+#~ msgstr "اسپانیا"
+
+#~ msgid "Italy"
+#~ msgstr "ایتالیا"
+
+#~ msgid "Germany"
+#~ msgstr "آلمان"
+
+#~ msgid "no"
+#~ msgstr "بدون نظر"
+
+#~ msgid "% Comment"
+#~ msgstr "% نظر"
+
+#~ msgid "Italy League"
+#~ msgstr "ایتالیا"
+
+#~ msgid "England League"
+#~ msgstr "فوتبال انگلستان"
+
+#~ msgid "Spain League"
+#~ msgstr "فوتبال اسپانیا"
+
+#~ msgid "Germany League"
+#~ msgstr "فوتبال آلمان"
+
+#~ msgid "France League"
+#~ msgstr "فوتبال فرانسه"
+
+#~ msgid "Champions League"
+#~ msgstr "لیگ قهرمانان"
+
+#~ msgid "Europe League"
+#~ msgstr "لیگ اروپا"
+
+#~ msgid "Other League"
+#~ msgstr "سایر لیگ ها"
+
+#~ msgid "Africa League"
+#~ msgstr "آفریقا"
+
+#~ msgid "Asia League"
+#~ msgstr "آسیا"
+
+#~ msgid "South America League"
+#~ msgstr "آمریکای جنوبی"
+
+#~ msgid "Friendly Game"
+#~ msgstr "بازی های دوستانه"
+
+#~ msgid "Club"
+#~ msgstr "باشگاه"
+
+#~ msgid "About Us"
+#~ msgstr "درباره ما"
+
+#~ msgid "Table"
+#~ msgstr "جدول رده بندی"
+
+#~ msgid "Breaking News"
+#~ msgstr "مهمترین اخبار"
+
+#~ msgid "French League"
+#~ msgstr "لیگ فرانسه"

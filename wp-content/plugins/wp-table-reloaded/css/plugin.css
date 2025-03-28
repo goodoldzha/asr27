@@ -1,0 +1,94 @@
+/*************************************************
+*  This CSS file belongs to WP-Table Reloaded!   *
+*  DO NOT make any changes here, add them to the *
+* "Custom CSS" textarea in the "Plugin Options"! *
+*************************************************/
+
+
+.wp-table-reloaded {
+    border-collapse: separate;
+    border-spacing: 0px;
+    background-color: #FFF;
+    margin: 10px 3px 15px;
+    font-size: 11pt;
+    width: 314px;
+    text-align: left;
+    line-height: 11px;
+    border-radius: 4px;
+    border: 2px solid;
+    box-shadow: 0px 0px 2px 1px #A58181;
+}
+.wp-table-reloaded th {
+    background-color: #000;
+    padding: 6px 4px 4px;
+    color: #FFF !important;
+    text-align: center;
+}
+.wp-table-reloaded td {
+    color: #FFF;
+    text-align: center;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+    border-radius: 0px;
+}
+.wp-table-reloaded .even td {
+    padding-top: 6px;
+    background-color: #FDFCFC;
+    color: #000;
+    border-color: #000;
+    border-width: 0px;
+    border-style: solid;
+}
+.wp-table-reloaded .odd td {
+    padding-top: 6px;
+    background-color: #FF7A00;
+    color: #000;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px;
+}
+.wp-table-reloaded .row-hover tr:hover td {
+	background-color: #D0D0D6!important;
+}
+.wp-table-reloaded-table-description {
+	clear: both;
+	display: block;
+}
+
+/*
+.wp-table-reloaded {
+	border-collapse: separate;
+	border-spacing: 1px;
+	background-color: #CDCDCD;
+	margin: 10px 0px 15px 0px;
+	font-size: 8pt;
+	width: 100%;
+	text-align: left;
+}
+.wp-table-reloaded th {
+	background-color: #E6EEEE;
+	border: 1px solid #FFFFFF;
+	padding: 4px;
+	color: #3D3D3D!important;
+}
+.wp-table-reloaded td {
+	color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFFFFF;
+	vertical-align: top;
+}
+.wp-table-reloaded .even td {
+	background-color: #FFFFFF;
+}
+.wp-table-reloaded .odd td {
+	background-color: #F0F0F6;
+}
+.wp-table-reloaded .row-hover tr:hover td {
+	background-color: #D0D0D6!important;
+}
+.wp-table-reloaded-table-description {
+	clear: both;
+	display: block;
+}
+*/

@@ -1,0 +1,81 @@
+div#WpQtToolBarBody b {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody strong {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody i {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody em {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody u {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody s {margin: 0 0 0 0; padding: 0 0 0 0;}
+div#WpQtToolBarBody del {margin: 0 0 0 0; padding: 0 0 0 0;}
+
+/*Основной div контейнер панели*/
+div#WpQtToolBarBody {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+   display: inline;
+}
+/*Вложенный div контейнер, растягивает родительскй div на 100%*, и задаёт фоновый рисунок панели*/
+div#WpQtToolBarBody div {
+	background: #E3E3E3 url(../img/button.gif) repeat-x top;
+	display: block;
+}
+/*Таблица в которой находятся кнопки, имеет фоновый цвет, пространство между ячейками(cellspacing) 1px, тем самым создавая эффект рамки*/
+div#WpQtToolBarBody div table {
+   height: 20px;
+	position: static;
+	margin: 0 0 0 0;
+	text-align: left;
+   font-family: Verdana, Helvetica, Arial, sans-serif;
+	background: #E3E3E3;
+}
+/*Ячейка таблицы в которой находится кнопка*/
+div#WpQtToolBarBody div table tr td {
+   padding: 0 0 0 0;
+	width: 20px;
+	height: 20px;
+	text-align: center;  
+	background: url(../img/button.gif) repeat-x top;
+}
+/*Кнопка панели*/
+div#WpQtToolBarBody a {
+   text-decoration: none;
+   font-size: 14px;
+   color: #7C7C7C;
+   line-height: 20px;
+   margin: 0 0 0 0;
+   padding: 0px 4px 0px 4px;
+   border: none;
+   display: block;
+}
+/*Кнопка панели подсвечченная при наведении мыши*/
+div#WpQtToolBarBody a:hover {
+   text-decoration: none;
+   font-size: 14px;
+   color: #ff0000;
+   display: block;
+   background-color: #ffffff;
+}
+/*Кнопка панели раскрывающая выпадающий список*/
+div#WpQtToolBarBody a.WpQtToolbarDropMenuButton {
+   background-image: url(../img/list_down.gif);
+   background-repeat: no-repeat;
+   background-position: right center;
+   padding-right: 15px;
+}
+
+div#WpQtToolBarBody a img {
+  border: none;
+  margin-top: 2px;
+}
+/*Выпадающее меню представляет собой маркированный список <ul>*/
+div#WpQtToolBarBody div table tr td ul.dropMenu{
+   position: absolute;
+   list-style-type: none;
+   margin: 0px;
+   padding: 1px;
+   background: #E3E3E3;
+}
+/*А пункты состоят из тегов <li>*/
+div#WpQtToolBarBody div table tr td ul.dropMenu li {
+   margin: 0px;
+   padding: 1px;
+   text-align: left;
+}

@@ -1,0 +1,279 @@
+# Translation of Plugins - WP-UserOnline - Stable (latest release) in Persian
+# This file is distributed under the same license as the Plugins - WP-UserOnline - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-11-16 10:17:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fa\n"
+"Project-Id-Version: Plugins - WP-UserOnline - Stable (latest release)\n"
+
+#: wp-useronline.php:76
+msgid "Browsing This Page."
+msgstr "در حال مشاهده این صفحه."
+
+#. Author of the plugin/theme
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Plugin URI of the plugin/theme
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "http://lesterchan.net/portfolio/programming/php/"
+
+#: wp-useronline.php:67 wp-useronline.php:76
+msgctxt "Template Element"
+msgid "Users"
+msgstr "کاربران"
+
+#. Description of the plugin/theme
+msgid "Enable you to display how many users are online on your Wordpress site"
+msgstr "نمایش کاربران آنلاین در سایت وردپرسی شما"
+
+#. Author URI of the plugin/theme
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#: wp-useronline.php:54
+msgid "1 Bot"
+msgstr "1 ربات"
+
+#: wp-useronline.php:55
+msgid "%COUNT% Bots"
+msgstr "%COUNT% ربات"
+
+#: wp-useronline.php:59
+msgid "Online"
+msgstr "آنلاین"
+
+#: wp-useronline.php:63 wp-useronline.php:64 wp-useronline.php:65
+#: wp-useronline.php:72 wp-useronline.php:73 wp-useronline.php:74
+msgid ","
+msgstr ","
+
+#: wp-useronline.php:52
+msgid "1 Guest"
+msgstr "1 مهمان"
+
+#: wp-useronline.php:48
+msgid "1 User"
+msgstr "۱ کاربر"
+
+#: wp-useronline.php:50
+msgid "1 Member"
+msgstr "۱ عضو"
+
+#: wp-useronline.php:51
+msgid "%COUNT% Members"
+msgstr "%COUNT% عضو"
+
+#: widget.php:65
+msgid "Users Online Count & Users Browsing Current Page"
+msgstr "تعداد کاربران آنلاین و تعداد کاربرانی که در حال خواندن این صفحه هستند."
+
+#: widget.php:66
+msgid "Users Online Count & Users Browsing Site"
+msgstr "تعداد کاربران آنلاین و تعداد کاربرانی که در حال خواندن مطالب دیگر سایت هستند."
+
+#: widget.php:61
+msgid "Users Online Count"
+msgstr "تعداد کاربران آنلاین"
+
+#: widget.php:63
+msgid "Users Browsing Site"
+msgstr "اربرانی که در حال خواندن مطالب دیگر سایت هستند."
+
+#: widget.php:62
+msgid "Users Browsing Current Page"
+msgstr "کاربرانی که در حال خواندن این مطلب هستند."
+
+#: wp-stats.php:24
+msgid "<strong>%s</strong> user online now."
+msgid_plural "<strong>%s</strong> users online now."
+msgstr[0] "<strong>%s</strong> users online now."
+
+#: wp-useronline.php:53
+msgid "%COUNT% Guests"
+msgstr "%COUNT% کاربر مهمان"
+
+#: wp-useronline.php:49
+msgid "%COUNT% Users"
+msgstr "%COUNT% کاربر"
+
+#: widget.php:59
+msgid "Statistics Type:"
+msgstr "نوع آمار:"
+
+#: template-tags.php:250 template-tags.php:252
+msgid "%s @ %s"
+msgstr "%s ساعت %s"
+
+#: template-tags.php:272
+msgid "Most users ever online were <strong>%s</strong>, on <strong>%s</strong>"
+msgstr "بیشترین افراد حاضر <strong>%s</strong> نفر, در <strong>%s</strong>"
+
+#: template-tags.php:194
+msgid "referral"
+msgstr "لینک ارجاع"
+
+#: template-tags.php:205
+msgid "Online Now"
+msgstr "هم اکنون آنلاین هستند"
+
+#: widget.php:56
+msgid "Title:"
+msgstr "عنوان:"
+
+#: widget.php:5
+msgid "WP-UserOnline users online statistics"
+msgstr "آمار کاربران آنلاین افزونه ی WP-UserOnline"
+
+#: template-tags.php:193
+msgid "url"
+msgstr "لینک"
+
+#: template-tags.php:192
+msgid "on"
+msgstr "در"
+
+#: template-tags.php:190
+msgid "No one is online now."
+msgstr "در حال حاضر کسی آنلاین نیست."
+
+#: template-tags.php:80
+msgid "There is <strong>%s</strong> online now: <strong>%s</strong>, <strong>%s</strong> and <strong>%s</strong>."
+msgid_plural "There are a total of <strong>%s</strong> online now: <strong>%s</strong>, <strong>%s</strong> and <strong>%s</strong>."
+msgstr[0] "<strong>%s</strong> در حال حاضر آنلاین است: <strong>%s</strong>, <strong>%s</strong> and <strong>%s</strong>."
+
+#: core.php:189
+msgid "Admin"
+msgstr "مدیر"
+
+#: scb/AdminPage.php:259
+msgid "Settings <strong>saved</strong>."
+msgstr "تنظیمات <strong>ذخیره شد</strong>."
+
+#: scb/AdminPage.php:516
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: core.php:195
+msgid "Archive"
+msgstr "آرشیو"
+
+#: admin.php:196
+msgid "Singular Form"
+msgstr "فرم فردی"
+
+#: admin.php:197
+msgid "Plural Form"
+msgstr "فرم جمعی"
+
+#: admin.php:227
+msgid "User(s) Online:"
+msgstr "کاربران حاضر:"
+
+#: admin.php:233 admin.php:258
+msgid "Restore Default Template"
+msgstr "بازگشت به حالت پیشفرض"
+
+#: admin.php:265
+msgid "Guests Separator"
+msgstr "جداکننده مهمان ها"
+
+#: admin.php:266
+msgid "Bots Separator"
+msgstr "جداکننده ربات ها"
+
+#: core.php:120
+msgid "Guest"
+msgstr "مهمان"
+
+#: admin.php:264
+msgid "Member Names Separator"
+msgstr "جدا کننده نام اعضا"
+
+#: admin.php:187
+msgid "Naming Conventions:"
+msgstr "نام ها:"
+
+#: admin.php:188 admin.php:228 admin.php:250
+msgid "Allowed Variables:"
+msgstr "متغیرهای صحیح:"
+
+#: admin.php:190
+msgid "Restore Defaults"
+msgstr "بازگردانی تنظیمات پیشفرض"
+
+#: admin.php:163
+msgid "User(s) Browsing Site:"
+msgstr "اعضای مشاهده کننده سایت:"
+
+#: admin.php:164
+msgid "User(s) Browsing Page:"
+msgstr "اعضای مشاهده کننده صفحه:"
+
+#: admin.php:177
+msgid "Save Changes"
+msgstr "دخیره تغییرات"
+
+#: admin.php:151
+msgid "Useronline Templates"
+msgstr "قالب های کاربرحاضر"
+
+#: admin.php:132
+msgid "Link user names to their author page"
+msgstr "نام های کاربری را به صفحه نویسنده اضافه کنید."
+
+#: admin.php:131
+msgid "No"
+msgstr "خیر"
+
+#: admin.php:113
+msgid "Time Out"
+msgstr "زمان خروجی"
+
+#: admin.php:121
+msgid "UserOnline URL"
+msgstr "پیوند کاربرحاضر"
+
+#: admin.php:131
+msgid "Yes"
+msgstr "بله"
+
+#: admin.php:128
+msgid "Link user names?"
+msgstr "افزودن نام های کاربری ؟"
+
+#: admin.php:124
+msgid "URL To UserOnline Page<br />Example: http://www.yoursite.com/useronline/<br />Example: http://www.yoursite.com/?page_id=2"
+msgstr "آدزس برای صفحه نمایش کاربران آنلاین<br />مثال: http://www.yoursite.com/useronline/<br />مثال: http://www.yoursite.com/?page_id=2"
+
+#: admin.php:116
+msgid "How long until it will remove the user from the database (in seconds)."
+msgstr "چقدر زمان برای حذف کاربر از دیتابیس نیاز است ؟ ( به ثانیه )"
+
+#: admin.php:9
+msgid "Users Online Now"
+msgstr "کاربران حاضر"
+
+#. #-#-#-#-#  wp-useronline-code.pot (WP-UserOnline 2.87.2)  #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#: admin.php:10 wp-stats.php:15 wp-stats.php:32
+msgid "WP-UserOnline"
+msgstr "کاربران حاضر"
+
+#: admin.php:56 widget.php:6 widget.php:49
+msgid "UserOnline"
+msgstr "کاربرحاضر"
+
+#: admin.php:26
+msgid "There is <strong><a href='%s'>%s user</a></strong> online now."
+msgid_plural "There are a total of <strong><a href='%s'>%s users</a></strong> online now."
+msgstr[0] "در حال حاضر <strong><a href='%s'>%s کاربر</a></strong> آنلاین میباشد."
+
+#: admin.php:55
+msgid "UserOnline Options"
+msgstr "تنظیمات UserOnline"
